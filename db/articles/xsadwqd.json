@@ -1,0 +1,10 @@
+{
+    "data": [
+        {
+            "type": "raw_html",
+            "html": "In Java, the integer primitive data type refers to the int data type, which is used to store whole numbers without decimal points. It is a 32-bit signed integer, meaning it can hold values ranging from -2,147,483,648 to 2,147,483,647.The int data type is one of the most commonly used numeric types in Java, as it provides a good balance between memory efficiency and range. Since it is a primitive type, it is stored directly in memory and does not require object creation, making it faster compared to wrapper classes like Integer.Java also provides other integer-based primitive types, such as byte, short, and long, which differ in size and range. However, int is typically the default choice for integer operations unless a smaller or larger range is specifically needed."
+        }
+    ],
+    "isCopyAllowed": "1",
+    "copyText": "In Java, the integer primitive data type refers to the int data type, which is used to store whole numbers without decimal points. It is a 32-bit signed integer, meaning it can hold values ranging from -2,147,483,648 to 2,147,483,647.The int data type is one of the most commonly used numeric types in Java, as it provides a good balance between memory efficiency and range. Since it is a primitive type, it is stored directly in memory and does not require object creation, making it faster compared to wrapper classes like Integer.Java also provides other integer-based primitive types, such as byte, short, and long, which differ in size and range. However, int is typically the default choice for integer operations unless a smaller or larger range is specifically needed."
+}
