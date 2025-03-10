@@ -3,6 +3,11 @@
         {
             "type": "raw_html",
             "html": "In Java, the integer primitive data type refers to the int data type, which is used to store whole numbers without decimal points. It is a 32-bit signed integer, meaning it can hold values ranging from -2,147,483,648 to 2,147,483,647.The int data type is one of the most commonly used numeric types in Java, as it provides a good balance between memory efficiency and range. Since it is a primitive type, it is stored directly in memory and does not require object creation, making it faster compared to wrapper classes like Integer.Java also provides other integer-based primitive types, such as byte, short, and long, which differ in size and range. However, int is typically the default choice for integer operations unless a smaller or larger range is specifically needed."
+        },
+        {
+            "type": "code",
+            "code": "// Program to demonstrate the int data type in Java\npublic class IntExample {\n    public static void main(String[] args) {\n        // Declare and initialize variables of int data type\n        int num1 = 25;\n        int num2 = 15;\n\n        // Perform arithmetic operations\n        int sum = num1 + num2;\n        int difference = num1 - num2;\n        int product = num1 * num2;\n        int quotient = num1 / num2;\n        int remainder = num1 % num2;\n\n        // Print the results\n        System.out.println(\"First number (num1): \" + num1);\n        System.out.println(\"Second number (num2): \" + num2);\n        System.out.println(\"Sum: \" + sum);\n        System.out.println(\"Difference: \" + difference);\n        System.out.println(\"Product: \" + product);\n        System.out.println(\"Quotient: \" + quotient);\n        System.out.println(\"Remainder: \" + remainder);\n    }\n}",
+            "lang": "java"
         }
     ],
     "isCopyAllowed": true,
