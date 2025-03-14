@@ -32,5 +32,13 @@
             "Give me an explanation of the for loop in Java."
         ],
         "articleId": "zdasdsa"
+    },
+    {
+        "questions": [
+            "Show Sample Article",
+            "Sample Article.",
+            "Demo Article"
+        ],
+        "articleId": "sample"
     }
 ]

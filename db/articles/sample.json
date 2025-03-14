@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "type": "raw_html",
+            "html": "A for loop in Java is a control flow statement that allows a block of code to be executed repeatedly for a fixed number of times. It is primarily used when the number of iterations is known beforehand.<br>The for loop consists of three parts:Initialization – Sets up a loop control variable.<br>Condition – Specifies the condition that must be true for the loop to continue executing.Increment/Decrement – Updates the loop control variable after each iteration.The for loop is commonly used for iterating over arrays, lists, and performing repetitive tasks efficiently. It improves code readability and helps in structuring iterative logic in a concise manner."
+        },
+        {
+            "type": "code",
+            "code": "public class Demo {\n\n\tpublic static void main(String[] args) {\n\t\t// byte : 8 bit signed integer\n\t\tbyte b1 = Byte.MIN_VALUE; // minimum value: -128 -> 2^8\n\t\tbyte b2 = Byte.MAX_VALUE; // maximum value: 127 -> (2^8)-1\n\n\t\tSystem.out.println(\"byte data type size is between \" + b1 + \" to \" + b2);\n\n\t\t// short : 16 bit signed integer\n\t\tshort s1 = Short.MIN_VALUE; // minimum value: -32,768 -> 2^16\n\t\tshort s2 = Short.MAX_VALUE; // maximum value: 32,767 -> (2^16)-1\n\n\t\tSystem.out.println(\"short data type size is between \" + s1 + \" to \" + s2);\n\n\t\t// int : 32 bit signed integer\n\t\tint i1 = Integer.MIN_VALUE; // minimum value: -2147483648 -> 2^32\n\t\tint i2 = Integer.MAX_VALUE; // maximum value: 2147483647 -> (2^32)-1\n\n\t\tSystem.out.println(\"int data type size is between \" + i1 + \" to \" + i2);\n\n\t\t// long : 64 bit signed integer\n\t\tlong l1 = Long.MIN_VALUE; // minimum value: -9223372036854775808 -> 2^64\n\t\tlong l2 = Long.MAX_VALUE; // maximum value: 9223372036854775807 -> (2^64)-1\n\n\t\tSystem.out.println(\"long data type size is between \" + l1 + \" to \" + l2);\n\n\t\tSystem.out.println(\"\\n\\nExample:\");\n\t\tbyte b = 121;\n\t\tshort s = 10221;\n\t\tint i = 60000;\n\t\tlong l = 21474836472L;\n\t\tSystem.out.println(\"byte \"+b);\n\t\tSystem.out.println(\"short \"+s);\n\t\tSystem.out.println(\"int \"+i);\n\t\tSystem.out.println(\"long \"+l);\n\t}\n\n}",
+            "lang": "java"
+        },
+        {
+            "type": "folder_structure",
+            "folderTree": {
+                "type": "folder",
+                "name": "app",
+                "comment": "this is root folder",
+                "content": [
+                    {
+                        "type": "folder",
+                        "name": "js",
+                        "content": [
+                            {
+                                "type": "file",
+                                "name": "master.js"
+                            },
+                            {
+                                "type": "file",
+                                "name": "profile.js"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "name": "css",
+                        "content": [
+                            {
+                                "type": "file",
+                                "name": "master.css"
+                            },
+                            {
+                                "type": "file",
+                                "name": "profile.css"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "name": "assets"
+                    },
+                    {
+                        "type": "file",
+                        "name": "index.html",
+                        "comment": "this is first first to load"
+                    }
+                ]
+            }
+        }
+    ],
+    "isCopyAllowed": false,
+    "copyText": "",
+    "isReadAllowed": false,
+    "readOutText": ""
+}
