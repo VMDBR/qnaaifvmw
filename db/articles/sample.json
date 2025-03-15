@@ -55,6 +55,18 @@
                     }
                 ]
             }
+        },
+        {
+            "type": "table",
+            "html": "<table class='ctable'> <tr> <td class='ctable-header-top-left'>Company</td> <td class='ctable-header-mid'>Mid</td> <td class='ctable-header-top-right'>Contact</td> </tr> <tr> <td class='ctable-data'>Alfreds Futterkiste</td> <td class='ctable-data'>Maria Anders</td> <td class='ctable-data'>Maria Anders</td> </tr> <tr> <td class='ctable-data'>Centro comercial Moctezuma</td> <td class='ctable-data'>Francisco Chang</td> <td class='ctable-data'>Francisco Chang</td> </tr> <tr> <td class='ctable-data'>Centro comercial Moctezuma</td> <td class='ctable-data'>Francisco Chang</td> <td class='ctable-data'>Francisco Chang</td> </tr> </table>"
+        },
+        {
+            "type": "spacer",
+            "size": "20"
+        },
+        {
+            "type": "table",
+            "html": "<table class='ctable'> <tr> <td class='ctable-header-top-left' style='min-width: 100px;'></td> <td class='ctable-header-mid' style='min-width: 200px;'>Java</td> <td class='ctable-header-mid' style='min-width: 200px;'>JavaScript</td> <td class='ctable-header-top-right' style='min-width: 200px;'>Python</td> </tr> <tr> <td class='ctable-header-mid'>Type</td> <td class='ctable-data'>Statically typed, compiled</td> <td class='ctable-data'>Dynamically typed, interpreted</td> <td class='ctable-data'>Dynamically typed, interpreted</td> </tr> <tr> <td class='ctable-header-mid'>Syntax</td> <td class='ctable-data'>Strict, verbose</td> <td class='ctable-data'>Loosely structured, lightweight</td> <td class='ctable-data'>Simple, readable, indentation-based</td> </tr> <tr> <td class='ctable-header-mid'>Execution</td> <td class='ctable-data'>Runs in JVM (Java Virtual Machine)</td> <td class='ctable-data'>Runs in browsers and servers</td> <td class='ctable-data'>Runs in an interpreter</td> </tr> <tr> <td class='ctable-header-bottom-left'>Paradigm</td> <td class='ctable-data'>Object-oriented, class-based</td> <td class='ctable-data'>Multi-paradigm (event-driven, functional, OOP)</td> <td class='ctable-data'>Multi-paradigm (procedural, OOP, functional)</td> </tr> </table>"
         }
     ],
     "isCopyAllowed": false,
