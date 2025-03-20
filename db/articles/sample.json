@@ -10,27 +10,27 @@
         },
         {
             "type": "raw_html",
-            "html": "<div class=\"para\">This is example of<span class=\"light-bold\">light bold</span></div>"
+            "html": "<div class=\"para\">This is example of<span class=\"light-bold\"> light bold</span></div>"
         },
         {
             "type": "raw_html",
-            "html": "<div class=\"para\">This is example of<span class=\"bold\">bold</span></div>"
+            "html": "<div class=\"para\">This is example of<span class=\"bold\"> bold</span></div>"
         },
         {
             "type": "raw_html",
-            "html": "<div class=\"para\">This is example of<span class=\"extra-bold\">extra bold</span></div>"
+            "html": "<div class=\"para\">This is example of<span class=\"extra-bold\"> extra bold</span></div>"
         },
         {
             "type": "raw_html",
-            "html": "<div class=\"para\">This is example of<span class=\"light-text\">Light Text</span></div>"
+            "html": "<div class=\"para\">This is example of<span class=\"light-text\"> light text</span></div>"
         },
         {
             "type": "raw_html",
-            "html": "<div class=\"para\">This is example of<span class=\"link-text-with-open-in\" onclick='openInNewTab(\"link\")'><span class=\"link-text\">open In New Tab</span><span class=\"open-in-new-tab-icon\"></span></span></div>"
+            "html": "<div class=\"para\">This is example of<span class=\"link-text-with-open-in\" onclick='openInNewTab(\"link\")'><span class=\"link-text\"> open In New Tab</span><span class=\"open-in-new-tab-icon\"></span></span></div>"
         },
         {
             "type": "raw_html",
-            "html": "<div class=\"para\">This is example of<span class=\"link-text\" onclick='openInNewTab(\"link\")'>link</span></div>"
+            "html": "<div class=\"para\">This is example of<span class=\"link-text\" onclick='openInNewTab(\"link\")'> link</span></div>"
         },
         {
             "type": "code",
