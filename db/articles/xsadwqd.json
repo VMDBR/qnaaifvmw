@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "type": "raw_html",
+            "html": "<div class='para'>In Java, the int data type is a 32-bit signed integer. It is commonly used when you need a whole number that fits within the range of -2,147,483,648 to 2,147,483,647. This range is because an int uses 4 bytes (32 bits), where one bit is used for the sign (positive or negative), and the rest represent the actual number.</div><div class='para'>Below code demonstrates different integer data types in Java: byte, short, int, and long</div>"
+        },
+        {
+            "type": "code",
+            "code": "public class Demo {\n\n\tpublic static void main(String[] args) {\n\t\t// byte : 8 bit signed integer\n\t\tbyte b1 = Byte.MIN_VALUE; // minimum value: -128 -> 2^8\n\t\tbyte b2 = Byte.MAX_VALUE; // maximum value: 127 -> (2^8)-1\n\n\t\tSystem.out.println(\"byte data type size is between \" + b1 + \" to \" + b2);\n\n\t\t// short : 16 bit signed integer\n\t\tshort s1 = Short.MIN_VALUE; // minimum value: -32,768 -> 2^16\n\t\tshort s2 = Short.MAX_VALUE; // maximum value: 32,767 -> (2^16)-1\n\n\t\tSystem.out.println(\"short data type size is between \" + s1 + \" to \" + s2);\n\n\t\t// int : 32 bit signed integer\n\t\tint i1 = Integer.MIN_VALUE; // minimum value: -2147483648 -> 2^32\n\t\tint i2 = Integer.MAX_VALUE; // maximum value: 2147483647 -> (2^32)-1\n\n\t\tSystem.out.println(\"int data type size is between \" + i1 + \" to \" + i2);\n\n\t\t// long : 64 bit signed integer\n\t\tlong l1 = Long.MIN_VALUE; // minimum value: -9223372036854775808 -> 2^64\n\t\tlong l2 = Long.MAX_VALUE; // maximum value: 9223372036854775807 -> (2^64)-1\n\n\t\tSystem.out.println(\"long data type size is between \" + l1 + \" to \" + l2);\n\n\t\tSystem.out.println(\"\\n\\nExample:\");\n\t\tbyte b = 121;\n\t\tshort s = 10221;\n\t\tint i = 60000;\n\t\tlong l = 21474836472L;\n\t\tSystem.out.println(\"byte \"+b);\n\t\tSystem.out.println(\"short \"+s);\n\t\tSystem.out.println(\"int \"+i);\n\t\tSystem.out.println(\"long \"+l);\n\t}\n\n}",
+            "lang": "java"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class='para'>byte can store values between -128 and 127.</div><div class='para'>It is used when memory optimization is needed (e.g., for storing small values).</div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class='para'>short can store values between -32,768 and 32,767.</div><div class='para'>Used when dealing with larger numbers than byte but still needing memory efficiency.</div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class='para'>The most commonly used integer type in Java.</div><div class='para'>Can store a wider range of numbers.</div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class='para'>Used when values exceed the int limit.</div><div class='para'>Used when values exceed the int limit.</div><br><div class='para'>Output:</div>"
+        },
+        {
+            "type": "code",
+            "code": "byte data type size is between -128 to 127\nshort data type size is between -32768 to 32767\nint data type size is between -2147483648 to 2147483647\nlong data type size is between -9223372036854775808 to 9223372036854775807\n\nExample:\nbyte 121\nshort 10221\nint 60000\nlong 21474836472",
+            "lang": "text"
+        }
+    ],
+    "isCopyAllowed": false,
+    "isReadAllowed": false
+}

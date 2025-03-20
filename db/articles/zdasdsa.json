@@ -1,0 +1,9 @@
+{
+    "data": [
+        {
+            "type": "raw_html",
+            "html": "A for loop in Java is a control flow statement that allows a block of code to be executed repeatedly for a fixed number of times. It is primarily used when the number of iterations is known beforehand.<br>The for loop consists of three parts:Initialization – Sets up a loop control variable.<br>Condition – Specifies the condition that must be true for the loop to continue executing.Increment/Decrement – Updates the loop control variable after each iteration.The for loop is commonly used for iterating over arrays, lists, and performing repetitive tasks efficiently. It improves code readability and helps in structuring iterative logic in a concise manner."
+        }
+    ],
+    "isCopyAllowed": false
+}

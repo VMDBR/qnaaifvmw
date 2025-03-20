@@ -1,0 +1,191 @@
+{
+    "data": [
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">This is example of paragraph Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fugiat voluptatibus magnam, voluptate cum architecto assumenda explicabo natus quis aut eos cumque? Et impedit velit modi ab provident sint atque.</div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class=\"spacer-line-s\"></div><div class=\"spacer-line-m\"></div><div class=\"spacer-line-l\"></div><div class=\"spacer-line-xl\"></div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">This is example of<span class=\"light-bold\">light bold</span></div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">This is example of<span class=\"bold\">bold</span></div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">This is example of<span class=\"extra-bold\">extra bold</span></div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">This is example of<span class=\"light-text\">Light Text</span></div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">This is example of<span class=\"link-text-with-open-in\" onclick='openInNewTab(\"link\")'><span class=\"link-text\">open In New Tab</span><span class=\"open-in-new-tab-icon\"></span></span></div>"
+        },
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">This is example of<span class=\"link-text\" onclick='openInNewTab(\"link\")'>link</span></div>"
+        },
+        {
+            "type": "code",
+            "code": "public class Demo {\n\n\tpublic static void main(String[] args) {\n\t\t// byte : 8 bit signed integer\n\t\tbyte b1 = Byte.MIN_VALUE; // minimum value: -128 -> 2^8\n\t\tbyte b2 = Byte.MAX_VALUE; // maximum value: 127 -> (2^8)-1\n\n\t\tSystem.out.println(\"byte data type size is between \" + b1 + \" to \" + b2);\n\n\t\t// short : 16 bit signed integer\n\t\tshort s1 = Short.MIN_VALUE; // minimum value: -32,768 -> 2^16\n\t\tshort s2 = Short.MAX_VALUE; // maximum value: 32,767 -> (2^16)-1\n\n\t\tSystem.out.println(\"short data type size is between \" + s1 + \" to \" + s2);\n\n\t\t// int : 32 bit signed integer\n\t\tint i1 = Integer.MIN_VALUE; // minimum value: -2147483648 -> 2^32\n\t\tint i2 = Integer.MAX_VALUE; // maximum value: 2147483647 -> (2^32)-1\n\n\t\tSystem.out.println(\"int data type size is between \" + i1 + \" to \" + i2);\n\n\t\t// long : 64 bit signed integer\n\t\tlong l1 = Long.MIN_VALUE; // minimum value: -9223372036854775808 -> 2^64\n\t\tlong l2 = Long.MAX_VALUE; // maximum value: 9223372036854775807 -> (2^64)-1\n\n\t\tSystem.out.println(\"long data type size is between \" + l1 + \" to \" + l2);\n\n\t\tSystem.out.println(\"\\n\\nExample:\");\n\t\tbyte b = 121;\n\t\tshort s = 10221;\n\t\tint i = 60000;\n\t\tlong l = 21474836472L;\n\t\tSystem.out.println(\"byte \"+b);\n\t\tSystem.out.println(\"short \"+s);\n\t\tSystem.out.println(\"int \"+i);\n\t\tSystem.out.println(\"long \"+l);\n\t}\n\n}",
+            "lang": "java"
+        },
+        {
+            "type": "folder_structure",
+            "folderTree": {
+                "type": "folder",
+                "name": "app",
+                "comment": "this is root folder",
+                "content": [
+                    {
+                        "type": "folder",
+                        "name": "js",
+                        "content": [
+                            {
+                                "type": "file",
+                                "name": "master.js"
+                            },
+                            {
+                                "type": "file",
+                                "name": "profile.js"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "name": "css",
+                        "content": [
+                            {
+                                "type": "file",
+                                "name": "master.css"
+                            },
+                            {
+                                "type": "file",
+                                "name": "profile.css"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "name": "assets"
+                    },
+                    {
+                        "type": "file",
+                        "name": "index.html",
+                        "comment": "this is first first to load"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "table",
+            "html": "<table class='ctable'> <tr> <td class='ctable-header-top-left'>Company</td> <td class='ctable-header-mid'>Mid</td> <td class='ctable-header-top-right'>Contact</td> </tr> <tr> <td class='ctable-data'>Alfreds Futterkiste</td> <td class='ctable-data'>Maria Anders</td> <td class='ctable-data'>Maria Anders</td> </tr> <tr> <td class='ctable-data'>Centro comercial Moctezuma</td> <td class='ctable-data'>Francisco Chang</td> <td class='ctable-data'>Francisco Chang</td> </tr> <tr> <td class='ctable-data'>Centro comercial Moctezuma</td> <td class='ctable-data'>Francisco Chang</td> <td class='ctable-data'>Francisco Chang</td> </tr> </table>"
+        },
+        {
+            "type": "spacer",
+            "size": "20"
+        },
+        {
+            "type": "table",
+            "html": "<table class='ctable'> <tr> <td class='ctable-header-top-left' style='min-width: 100px;'></td> <td class='ctable-header-mid' style='min-width: 200px;'>Java</td> <td class='ctable-header-mid' style='min-width: 200px;'>JavaScript</td> <td class='ctable-header-top-right' style='min-width: 200px;'>Python</td> </tr> <tr> <td class='ctable-header-mid'>Type</td> <td class='ctable-data'>Statically typed, compiled</td> <td class='ctable-data'>Dynamically typed, interpreted</td> <td class='ctable-data'>Dynamically typed, interpreted</td> </tr> <tr> <td class='ctable-header-mid'>Syntax</td> <td class='ctable-data'>Strict, verbose</td> <td class='ctable-data'>Loosely structured, lightweight</td> <td class='ctable-data'>Simple, readable, indentation-based</td> </tr> <tr> <td class='ctable-header-mid'>Execution</td> <td class='ctable-data'>Runs in JVM (Java Virtual Machine)</td> <td class='ctable-data'>Runs in browsers and servers</td> <td class='ctable-data'>Runs in an interpreter</td> </tr> <tr> <td class='ctable-header-bottom-left'>Paradigm</td> <td class='ctable-data'>Object-oriented, class-based</td> <td class='ctable-data'>Multi-paradigm (event-driven, functional, OOP)</td> <td class='ctable-data'>Multi-paradigm (procedural, OOP, functional)</td> </tr> </table>"
+        },
+        {
+            "type": "attachment",
+            "attachments": [
+                {
+                    "type": "img",
+                    "link": "https://raw.githubusercontent.com/VaibhavMojidra/Android-Jetpack-Compose---Demo-Annotated-String/master/screenshots/1.jpeg"
+                },
+                {
+                    "type": "video",
+                    "link": "https://vaibhavmojidra.github.io/site/assets/img/highlights/stories/jettycolaba/1.mp4",
+                    "isDownloadable": true
+                },
+                {
+                    "type": "video",
+                    "link": "https://vaibhavmojidra.github.io/site/assets/img/highlights/stories/seasidepatio/2.mp4"
+                },
+                {
+                    "type": "video",
+                    "link": "https://www.youtube.com/watch?v=bn-yScWtsQo"
+                },
+                {
+                    "type": "doc",
+                    "link": "https://www.antennahouse.com/hubfs/xsl-fo-sample/pdf/basic-link-1.pdf"
+                }
+            ]
+        },
+        {
+            "type": "links",
+            "links": [
+                {
+                    "displayText": "What is Android & How it Work? | How to Become an Android Developer! | Android Tutorial",
+                    "link": "https://www.youtube.com/watch?v=HyU4vkZ2NB8&list=PLjVLYmrlmjGdDps6HAwOOVoAtBPAgIOXL"
+                },
+                {
+                    "displayText": "WhatsApp Messenger",
+                    "link": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997"
+                },
+                {
+                    "displayText": "App start time when preloading sqlite db in Room",
+                    "link": "https://stackoverflow.com/questions/79515530/app-start-time-when-preloading-sqlite-db-in-room"
+                },
+                {
+                    "displayText": "Higher-Order Functions and Lambda Expressions in Kotlin: Making Code More Concise",
+                    "link": "https://medium.com/@vaibhavmojidra/higher-order-functions-and-lambda-expressions-in-kotlin-making-code-more-concise-a9022282cd91"
+                },
+                {
+                    "displayText": "Mastering Kotlin Extension Functions: Real-World Examples for Beginners",
+                    "link": "https://www.linkedin.com/pulse/mastering-kotlin-extension-functions-real-world-examples-mojidra-la3lf/"
+                },
+                {
+                    "displayText": "Aptitude Test with Answers by Vaibhav Mojidra",
+                    "link": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.aptitudetestapp"
+                },
+                {
+                    "displayText": "Android Jetpack Compose Demo Annotated String",
+                    "link": "https://github.com/VaibhavMojidra/Android-Jetpack-Compose---Demo-Annotated-String"
+                },
+                {
+                    "displayText": "",
+                    "link": "https://github.com/VaibhavMojidra/Android-Jetpack-Compose---Demo-Flows-With-ViewModel"
+                },
+                {
+                    "link": "https://github.com/VaibhavMojidra/Android-Jetpack-Compose---Demo-ViewModel-To-Save-State"
+                },
+                {
+                    "displayText": "WhatsApp",
+                    "link": "https://web.whatsapp.com/"
+                }
+            ]
+        },
+        {
+            "type": "buttons",
+            "buttons": [
+                {
+                    "text": "Install App",
+                    "link": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.aptitudetestapp"
+                },
+                {
+                    "text": "Install",
+                    "link": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.aptitudetestapp"
+                },
+                {
+                    "text": "Install New App",
+                    "link": "https://play.google.com/store/apps/details?id=com.vaibhavmojidra.aptitudetestapp"
+                }
+            ]
+        }
+    ],
+    "isCopyAllowed": false,
+    "copyText": "",
+    "isReadAllowed": false,
+    "readOutText": ""
+}

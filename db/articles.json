@@ -1,0 +1,44 @@
+[
+    {
+        "questions": [
+            "What is the Integer primitive data type in Java?",
+            "Can you explain the Integer primitive type in Java?",
+            "Explain how integers work as a primitive data type in Java.",
+            "What is an int in Java, and how is it used?",
+            "Could you describe the primitive int type in Java?",
+            "What does the int data type do in Java?",
+            "Can you give an overview of the int primitive type in Java?",
+            "Could you explain the int data type with an example in Java?",
+            "How much memory does the int primitive type use in Java?",
+            "What are the rules for using int in Java?",
+            "Can you provide details about the int data type in Java?",
+            "What is the range of values for the int primitive type in Java?",
+            "How do you declare an int variable in Java?",
+            "Why is int considered a primitive type in Java?"
+        ],
+        "articleId": "xsadwqd"
+    },
+    {
+        "questions": [
+            "What is a for loop in Java?",
+            "Explain the for loop in Java.",
+            "How does the for loop work in Java?",
+            "Can you describe the for loop in Java?",
+            "What is the purpose of a for loop in Java?",
+            "Tell me about the for loop in Java.",
+            "How do you use a for loop in Java?",
+            "Describe the working of a for loop in Java.",
+            "What is the syntax of a for loop in Java?",
+            "Give me an explanation of the for loop in Java."
+        ],
+        "articleId": "zdasdsa"
+    },
+    {
+        "questions": [
+            "Show Sample Article",
+            "Sample Article.",
+            "Demo Article"
+        ],
+        "articleId": "sample"
+    }
+]
