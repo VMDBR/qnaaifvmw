@@ -10,6 +10,10 @@
         },
         {
             "type": "raw_html",
+            "html": "<div class=\"para\">This is an example of <span class=\"code-highlight\">Code Highlight</span></div>"
+        },
+        {
+            "type": "raw_html",
             "html": "<div class=\"para\">This is example of<span class=\"light-bold\"> light bold</span></div>"
         },
         {
@@ -26,7 +30,7 @@
         },
         {
             "type": "raw_html",
-            "html": "<div class=\"para\">This is example of<span class=\"link-text-with-open-in\" onclick='openInNewTab(\"link\")'><span class=\"link-text\"> open In New Tab</span><span class=\"open-in-new-tab-icon\"></span></span></div>"
+            "html": "<div class=\"para\">This is example of<span class=\"link-text-with-open-in\" onclick='openInNewTab(\"https://vaibhavmojidra.github.io/site/\")'> <span class=\"link-text\">open In New Tab</span><span class=\"open-in-new-tab-icon\"></span></span></div>"
         },
         {
             "type": "raw_html",

@@ -36,9 +36,17 @@
     {
         "questions": [
             "Show Sample Article",
-            "Sample Article.",
+            "Sample Article",
             "Demo Article"
         ],
         "articleId": "sample"
+    },
+    {
+        "questions": [
+            "Show Sample Article 2",
+            "Sample Article 2",
+            "Demo Article 2"
+        ],
+        "articleId": "sample2"
     }
 ]

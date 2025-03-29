@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "type": "raw_html",
+            "html": "<div class=\"para\">Vaibhav Mojidra is the developer of VMOS.</div>"
+        }
+    ],
+    "isCopyAllowed": true,
+    "copyText": "Vaibhav Mojidra is the developer of VMOS.",
+    "isReadAllowed": false,
+    "readOutText": "Vaibhav Mojidra is the developer of VMOS.",
+    "readoutReplace": [
+        {
+            "word": "Vaibhav Mojidra",
+            "pronouceWord": "Vaibhav Moojeedraa"
+        },
+        {
+            "word": "VMOS",
+            "pronouceWord": "V M O S"
+        }
+    ]
+}
