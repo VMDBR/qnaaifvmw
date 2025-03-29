@@ -7,7 +7,7 @@
     ],
     "isCopyAllowed": true,
     "copyText": "Vaibhav Mojidra is the developer of VMOS.",
-    "isReadAllowed": false,
+    "isReadAllowed": true,
     "readOutText": "Vaibhav Mojidra is the developer of VMOS.",
     "readoutReplace": [
         {
